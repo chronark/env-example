@@ -1,6 +1,14 @@
 # env-example
 Create a .env.example file by removing values from a .env file.
 
+
+### Install
+
+```sh
+go install github.com/chronark/env-example
+```
+Or choose a binary from the [releases](https://github.com/chronark/env-example/releases).
+
 ### Usage
 ```
 example-env -in=path/to/.env -out=.env.example
