@@ -21,10 +21,6 @@ HELLO=
 
 # Empty value
 NO_VALUE=
-
-# No equal sign
-# This is not even valid but we just pretend it is.
-NO_EQUAL_SIGN=
 `
 
 		if string(file) != expectedContent {
